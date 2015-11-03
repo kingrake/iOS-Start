@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let settings: UIUserNotificationSettings = UIUserNotificationSettings(forTypes: UIUserNotificationType.Badge, categories: nil)
+        UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +23,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func Click(sender: AnyObject) {
+        
+        let app = UIApplication.sharedApplication()
+
+        app.applicationIconBadgeNumber += 1
+
+        
+    }
+
+    @IBAction func deClick(sender: AnyObject) {
+        
+        UIApplication.sharedApplication().applicationIconBadgeNumber -= 1
+    }
 
 }
 

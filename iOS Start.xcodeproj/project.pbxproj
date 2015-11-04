@@ -485,6 +485,7 @@
 				D44A857B1BE79E7400A319A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D44A857C1BE79E7400A319A8 /* Build configuration list for PBXNativeTarget "iOS StartTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +494,7 @@
 				D44A857E1BE79E7400A319A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D44A857F1BE79E7400A319A8 /* Build configuration list for PBXNativeTarget "iOS StartUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +503,7 @@
 				D44A85811BE79E7400A319A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

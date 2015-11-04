@@ -27,8 +27,11 @@
                                     <action selector="Click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kch-WA-uW9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JK-Bh-tGe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JK-Bh-tGe">
                                 <rect key="frame" x="195" y="233" width="210" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="210" id="aSb-5v-qJJ"/>
+                                </constraints>
                                 <state key="normal" title="点我，我要贱贱减角标">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -40,10 +43,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Ase-lA-VxX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cIt-Pe-zcW"/>
-                            <constraint firstItem="3JK-Bh-tGe" firstAttribute="centerX" secondItem="Ase-lA-VxX" secondAttribute="centerX" id="jS6-7z-6Z0"/>
-                            <constraint firstItem="3JK-Bh-tGe" firstAttribute="top" secondItem="Ase-lA-VxX" secondAttribute="bottom" constant="44" id="kiA-dM-AMG"/>
-                            <constraint firstItem="Ase-lA-VxX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="139" id="thx-hJ-2Pl"/>
+                            <constraint firstItem="Ase-lA-VxX" firstAttribute="centerX" secondItem="3JK-Bh-tGe" secondAttribute="centerX" id="DWE-U5-aPb"/>
+                            <constraint firstItem="3JK-Bh-tGe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gvx-TE-gUq"/>
+                            <constraint firstItem="Ase-lA-VxX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="139" id="U5v-AI-qDQ"/>
+                            <constraint firstItem="3JK-Bh-tGe" firstAttribute="top" secondItem="Ase-lA-VxX" secondAttribute="bottom" constant="44" id="Z5A-qi-Y8u"/>
                         </constraints>
                     </view>
                 </viewController>

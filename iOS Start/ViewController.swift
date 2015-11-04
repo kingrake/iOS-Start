@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +37,17 @@ class ViewController: UIViewController {
     @IBAction func deClick(sender: AnyObject) {
         
         UIApplication.sharedApplication().applicationIconBadgeNumber -= 1
+        
+        let ca = CATransition()
+        
+        ca.type = "cube"
+        
+        self.view.layer.addAnimation(ca, forKey: nil)
+        
+
+        
+
+
     }
 
 }
